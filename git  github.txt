@@ -1,0 +1,78 @@
+git  github
+
+
+version control system
+
+what is version ?
+ 
+example --- we have a project calculator
+
+
+development team --- they working initiallly for adddion functionalituies ---- after finih the work they complted the version 1
+
+
+they started towork on --------after finish the work --- version 2 
+
+
+mult----------version 3
+
+
+
+divi------ version 4 --------- the complte tratck mainitaining tool is called git, m
+
+
+maintaining the version history , easy to revert back 
+
+
+two type of connection 
+
+one is using ssh
+
+
+
+another using https
+
+
+i want to push this file from my local machine to githbu(remote)
+
+git init ----- git initialisation 
+
+git add addion.xlsx---- add the file to git
+
+i want to know the status of my git
+
+git status---- status of the git
+
+commit the file
+
+git commit -m "added adion.xlsx"
+
+
+git push --- from local machine to remote machine push 
+
+
+bramching stratergies
+
+pull request 
+
+
+you 5 meberes --- addion task 
+
+
+local remaining 4 members working the other machine (local machine )( each user personallaptop )
+
+
+remote machine ---- (centralised machine)-- we will keep the code inte centaralised machine---
+
+local machine --- but - how we collabaratoe--- github -- we keep the code in the centralised remote system (repositories)
+github ----
+
+
+gitlab, githyb, biutbucket, azure devops -- there are multiple tools
+
+
+github 
+
+gitlab 
+
+
