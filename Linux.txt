@@ -1,0 +1,186 @@
+windows -------which user has special accesss--- administrator
+
+
+go and create the user eric or aaliya--- normal user
+
+
+
+Linux administrator-----root
+
+su--- switch user
+
+useradd erica(chnage anyname)
+
+groupadd groupname
+
+i want to display the list of users and groups
+
+
+cat -----content display command 
+
+useradd aaliya -G devops       -- -G groupname 
+
+mkdir --- make directory 
+
+
+we called this is as a folder(windows)
+
+
+linux ---directory
+
+cd--- change the directory
+cd directoryname
+
+cd ..---- exit from the directory 
+
+
+word flle --- anayname.doc--- extension
+
+
+filename.pdf
+
+filename.txt
+
+filename.xls
+
+
+create the file using vi editor
+
+vi filename.txt --- text file will be open 
+
+click on i buttonn in your keyboard ----- insert 
+
+
+how to save the file
+
+esc -- button in your laptop ----- chnage the mode from insert to execution 
+
+save the file
+
+:wq!
+
+
+w--- with
+
+
+without save 
+
+
+ls - listing the file
+
+rm -rf filename
+
+rm -- remove
+
+r --- recursive
+
+f---- force 
+
+
+ls -al -- listing all directories and files with all information 
+
+
+d rwxr-xr-x. 2 root     root       6 Apr 12 00:54 Peter---
+
+
+d--- directory 
+
+rwx r-x r-x.
+
+
+r---- read
+
+w---- write
+
+
+x ---  execute 
+
+
+rwx------- user permission    (read write execute )
+
+r-x ------  group permission    (enginners devops read and execute )----- they don't have a write permisssion --- if i addd users in to the group that user also have a permission only read and execute 
+
+r-x   ---- system permission    (system read and execute permission)
+
+
+
+read ----- 4
+write --- 2
+execute --- 1 
+
+user full permission (read write execute ) ----- 4 2 1= 7
+
+chmod ----- chnage the mode 
+
+
+chmod 775 peter
+
+mv -- move command 
+
+mv sourcdname destination 
+mv Peter erica
+
+
+cp ----- copy the file or directory 
+
+
+
+cp -r source destination
+
+cp --- copy
+
+
+r ---- recursive 
+
+
+what is diffrence between MV and cp
+
+
+
+
+
+linux --- everything as a file structure-------- /--------- root
+
+
+root directory / ---------etc 
+
+etc --- linux system infomation and configuration 
+
+   -----
+cat /etc/group  ---listing the usera and groups    ----- user an grous infoamtion storeted under the etc directory
+
+bin -- systtem commands and execution based in bin ---- 
+
+
+proc -- processs
+
+
+all pocressor information located under the proc diretctory 
+
+
+cat /proc/cpuinfo
+
+
+var --- all the linux log information   lovated herer
+
+
+
+how to connect one machinet to another machine (instcne )
+
+
+hot to cop the file from ons ec2 instance to another 2 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
